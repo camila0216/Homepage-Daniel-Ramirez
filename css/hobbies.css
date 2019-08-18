@@ -12,7 +12,6 @@ body{
 .row{
   width: 21vw;
   height: 85vh;
-  margin-top: 0vh;
   margin-left: -9.5vw;
 }
 #menu{
@@ -40,6 +39,7 @@ body{
   color: white;
 }
 #home{
+  border-style: solid;
   border-color: green;
   box-shadow: 0px 0px 40px green;
 }
@@ -48,6 +48,7 @@ body{
   box-shadow: 0px 0px 40px green;
 }
 #studies{
+  border-style: solid;
   border-color: blue;
   box-shadow: 0px 0px 40px blue;
 }
@@ -56,6 +57,7 @@ body{
   box-shadow: 0px 0px 40px blue;
 }
 #projects{
+  border-style: solid;
   border-color: orange;
   box-shadow: 0px 0px 40px orange;
 }
@@ -64,6 +66,7 @@ body{
   box-shadow: 0px 0px 40px orange;
 }
 #hobbies{
+  border-style: solid;
   border-color: red;
   box-shadow: 0px 0px 40px red;
 }
@@ -80,13 +83,31 @@ body{
   margin-top: -5vh;
  /*  margin-left: 5vw; */
 }
+#photo{
+  width: 20vw;
+  height: 45vh;
+  float: left;
+  margin-left: 24vw;
+  margin-top: -66vh;
+}
+#info{
+  float: left;
+  width: 20vw;
+  height: 50vh;
+  margin-left: 55vw;
+  margin-top: -70vh;
+}
+#name{
+  margin-left: 1vw;
+  text-align: justify;
+}
 #letterD{
   color: blue;
   font-family: 'Barlow', sans-serif;
 }
 #letterA{
-  color: green;
-  font-family: 'Barlow', sans-serif;
+    color: green;
+font-family: 'Barlow', sans-serif;
 }
 #letterR{
   color: red;
@@ -95,119 +116,6 @@ body{
 #letterDTwo{
   color: orange;
   font-family: 'Barlow', sans-serif;
-}
-#rowTwo{
-  width: 70vw;
-  height: 40vh;
-  margin-left: 15vw;
-  margin-top: -82vh;
-  float: left;
-}
-#rowThree{
-  width: 70vw;
-  height: 40vh;
-  margin-left: 15vw;
-  margin-top: -42.4vh;
-  float: left;
-}
-#one{
-  border-left-style: solid;
-  border-left-color: orange;
-  border-top-style: solid;
-  border-top-color: orange;
-  margin-right: 5vw;
-  margin-bottom: 5vh;
-}
-.flip-card {
-  background-color: transparent;
-  width: 30vw;
-  height: 30vh;
-  margin-top: 2vh;
-  perspective: 1000px;
-}
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: rgb(41, 41, 41);
-  color: black;
-}
-.flip-card-back{
-/*   background-color: orange; */
-  color: white;
-  transform: rotateY(180deg);
-}
-#projectOne{
-  width: 30vw;
-  margin-top: 0vh;
-  margin-left: 2vw;
-}
-#backOne{
-  background-color: orange;
-}
-#two{
-  margin-bottom: 5vh;
-  border-right-style: solid;
-  border-right-color: yellow;
-  border-top-style: solid;
-  border-top-color: yellow;
-}
-#projectTwo{
-  width: 14.3vw;
-  margin-top: 0vh;
-  margin-left: 2vw;
-}
-#backTwo{
-  background-color: yellow;
-}
-#three{
-  margin-right: 5vw;
-  margin-top: 5vh;
-  border-left-style: solid;
-  border-left-color: yellow;
-  border-bottom-style: solid;
-  border-bottom-color: yellow;
-}
-#projectThree{
-  text-align: center;
-  margin-top: 7vh;
-  color: yellow;
-}
-#backThree{
-  background-color: rgb(41, 41, 41);
-}
-#four{
-  margin-top: 5vh;
-  border-right-style: solid;
-  border-right-color: orange;
-  border-bottom-style: solid;
-  border-bottom-color: orange;
-}
-#projectFour{
-  text-align: center;
-  margin-top: 10vh;
-  color: orange;
-}
-#backFour{
-  background-color: rgb(41, 41, 41);
 }
 footer{
   width: 100vw;
