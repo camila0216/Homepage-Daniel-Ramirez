@@ -13,7 +13,7 @@ body{
   width: 21vw;
   height: 85vh;
   margin-top: 0vh;
-  margin-left: -9.5vw;
+  margin-left: 0vw;
 }
 #menu{
   background-color: black;
@@ -101,7 +101,7 @@ body{
   height: 80vh;
   float:left;
   margin-left: 15vw;
-  margin-top: -83vh;
+  margin-top: 2vh;
 }
 .col{
   border-style: solid;
@@ -216,8 +216,9 @@ footer{
   width: 100vw;
   height: 10vh;
   margin-top: 5vh;
-  margin-left: -9.5vw;
+  margin-left: 0vw;
   background-color:rgba(255, 255, 255, 0.2);
+  position: static;
 }
 .contact{
   float: left;
@@ -278,6 +279,9 @@ footer{
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  body{
+    height: 185vh;
+  }
   .row{
     width: 100vw;
     height: 50vh;
@@ -286,6 +290,7 @@ footer{
   #menu{
     width: 33vw;
     height: 80vh;
+    margin-left: 0vw;
   }
   #logo{
     margin-left: -10vw;
@@ -315,13 +320,14 @@ footer{
   .division{
     width: 50vw;
     height: 50vw;
+    margin-top: -83vh;
     margin-left: 17vh;
   }
   /* Colegio */
   #colegio{
     margin-top: 85vh;
-    height: 90vw;
-    margin-bottom: 10vh;
+    height: 95vw;
+    margin-bottom: 5vh;
   }
   #imagenColegio{
     width: 40vw;
@@ -334,46 +340,106 @@ footer{
   #etiquetaColegio{
     width: 15vw;
     height: 5vh;
-    margin-top: -10vh;
+    margin-top: -14vh;
     margin-left: 13vw;
   }
   #visitColegio{
     margin-top: 0vh;
     width: 25vw;
-    margin-left: 8vw;
+    margin-left: 10vw;
   }
   #txtSchool{
     font-size: 3vw;
     margin-left: -3vw;
-    margin-top: -3.5vh;
+    margin-top: -2.5vh;
   }
-  footer{
-    width: 99.5vw;
+  /* Universidad */
+  #univer{
+    height: 95vw;
     margin-left: 0vw;
-    margin-top: 10vh;
+    margin-bottom: 5vh;
   }
-  .contact{
-    margin-left: 5vw;
-    margin-top: 3vh;
+  #imagenUniversidad{
+    width: 40vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
   }
-  #face{
-    width: 10vw;
+  #textoUniversidad{
+    font-size: 3vw;
+  }
+  #etiquetaUniversidad{
+    width: 15vw;
     height: 5vh;
-    margin-top: 0vh;
+    margin-top: -14vh;
+    margin-left: 13vw;
   }
-  #twitter{
-    width: 10vw;
-    height: 5vh;
+  #visitUniversidad{
     margin-top: 0vh;
+    width: 25vw;
     margin-left: 10vw;
   }
+  #txtUniversidad{
+    font-size: 3vw;
+    margin-left: -3vw;
+    margin-top: -2.5vh;
+  }
+  /* Otros */
+  #otros{
+    height: 95vw;
+    margin-left: 0vw;
+    margin-bottom: 10vh;
+  }
+  #imagenOtros{
+    width: 40vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  #textoOtros{
+    font-size: 3vw;
+  }
+  #etiquetaOtros{
+    width: 15vw;
+    height: 5vh;
+    margin-top: -14vh;
+    margin-left: 13vw;
+  }
+  #visitOtros{
+    margin-top: 0vh;
+    width: 25vw;
+    margin-left: 10vw;
+  }
+  #txtOtros{
+    font-size: 3vw;
+    margin-left: -3vw;
+    margin-top: -2.5vh;
+  }
+footer{
+  width: 99.5vw;
+  margin-left: 0vw;
+  margin-top: 10vh;
+}
+.contact{
+  margin-left: 5vw;
+  margin-top: 3vh;
+}
+#face{
+  width: 10vw;
+  height: 5vh;
+  margin-top: 0vh;
+}
+#twitter{
+  width: 10vw;
+  height: 5vh;
+  margin-top: 0vh;
+  margin-left: 10vw;
+}
 
-  #instagram{
-    width: 10.5vw;
-    height: 5.5vh;
-    margin-top: -0.5vh;
-    margin-left: 10vw;
-  }
+#instagram{
+  width: 10.5vw;
+  height: 5.5vh;
+  margin-top: -0.5vh;
+  margin-left: 10vw;
+}
 }
 
 /* Small devices (landscape phones, less than 768px) */
