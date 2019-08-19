@@ -270,8 +270,8 @@ footer{
 
 #github:hover{
   animation-name: rotate;
-  animation-duration: 0.5s;
-  animation-iteration-count: 0.5;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
   animation-timing-function: linear;
 }
 
