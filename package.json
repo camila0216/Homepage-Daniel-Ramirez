@@ -1,7 +1,7 @@
 {
   "name": "Homepage-Daniel-Ramirez",
   "version": "1.0.0",
-  "description": "This is my professional profile web page.",
+  "description": "This is my professional profile web page. Here you can find my persnal information such as studies projects and hobbies. Visit my homepage on https://dard9811.github.io/Homepage-Daniel-Ramirez",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
