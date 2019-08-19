@@ -161,12 +161,12 @@ a:hover{
   width: 13vw;
   height: 11vh;
   margin-top: 10vh;
-  margin-bottom: 12vh;
+  margin-bottom: 7vh;
   margin-left: 2vw;
 }
 #textoUniversidad{
   height: 29vh;
-  margin-bottom: 13vh;
+  margin-bottom: 18.5vh;
   font-size: 2vh;
 }
 #etiquetaUniversidad{
@@ -182,21 +182,26 @@ a:hover{
   box-shadow: 0px 0px 20px rgb(84, 86, 190);
   text-decoration: none;
 }
+#visitUniversidad{
+  margin-top: 19.5vh;
+  width: 8.5vw;
+  margin-left: 6vw;
+}
 /* Otros */
 #otros{
   border-color: rgb(134, 136, 187);
   box-shadow: 0px 0px 20px rgb(134, 136, 187);
 }
 #imagenOtros{
-  width: 12vw;
-  height: 10vh;
+  width: 13vw;
+  height: 11vh;
   margin-top: 10vh;
-  margin-bottom: 12vh;
-  margin-left: 4vw;
+  margin-bottom: 7vh;
+  margin-left: 2vw;
 }
 #textoOtros{
   height: 29vh;
-  margin-bottom: 14vh;
+  margin-bottom: 18.5vh;
   font-size: 2vh;
 }
 #etiquetaOtros{
@@ -211,6 +216,11 @@ a:hover{
   background-color: rgb(134, 136, 187);
   box-shadow: 0px 0px 20px rgb(134, 136, 187);
   text-decoration: none;
+}
+#visitOtros{
+  margin-top: 11vh;
+  width: 8.5vw;
+  margin-left: 6vw;
 }
 footer{
   width: 100vw;
@@ -280,7 +290,7 @@ footer{
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   body{
-    height: 185vh;
+    height: 195vh;
   }
   .row{
     width: 100vw;
@@ -370,7 +380,7 @@ footer{
   #etiquetaUniversidad{
     width: 15vw;
     height: 5vh;
-    margin-top: -14vh;
+    margin-top: -17.5vh;
     margin-left: 13vw;
   }
   #visitUniversidad{
@@ -385,7 +395,7 @@ footer{
   }
   /* Otros */
   #otros{
-    height: 95vw;
+    height: 110vw;
     margin-left: 0vw;
     margin-bottom: 10vh;
   }
@@ -400,7 +410,7 @@ footer{
   #etiquetaOtros{
     width: 15vw;
     height: 5vh;
-    margin-top: -14vh;
+    margin-top: -9vh;
     margin-left: 13vw;
   }
   #visitOtros{

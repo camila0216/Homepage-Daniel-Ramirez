@@ -174,7 +174,7 @@ body{
   margin-left: 2vw;
 }
 #backTwo{
-  background-color: yellow;
+  background-color: rgb(165, 165, 0);
 }
 #three{
   margin-right: 5vw;
@@ -331,6 +331,10 @@ footer{
   }
   #backOne{
     background-color: orange;
+    font-size: 3.5vw;
+  }
+  #titleNami{
+    margin-left: 0vw;
   }
   #projectTwo{
     width: 35vw;
@@ -338,7 +342,8 @@ footer{
     margin-left: 0vw;
   }
   #backTwo{
-    background-color: yellow;
+    background-color: rgb(165, 165, 0);
+    font-size: 3.5vw;
   }
   #three{
     margin-right: 5vw;
