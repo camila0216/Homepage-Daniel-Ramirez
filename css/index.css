@@ -29,13 +29,18 @@ body{
 }
 #logoDos{
   margin-top: 8vh;
-/*   margin-left: 5vw; */
 }
 .nav-link{
   text-align: center;
   color: white;
 }
 .nav-link:hover{
+  color: white;
+}
+.btn{
+  color: white;
+}
+.btn:hover{
   color: white;
 }
 #home{
