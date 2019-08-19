@@ -37,12 +37,6 @@ body{
 .nav-link:hover{
   color: white;
 }
-.btn{
-  color: white;
-}
-.btn:hover{
-  color: white;
-}
 #home{
   border-style: solid;
   border-color: green;
@@ -155,19 +149,19 @@ body{
   margin-left: 5.5vw;
   margin-top: 2vh;
 }
-#letterD{
+.letterD{
   color: blue;
   font-family: 'Barlow', sans-serif;
 }
-#letterA{
+.letterA{
     color: green;
 font-family: 'Barlow', sans-serif;
 }
-#letterR{
+.letterR{
   color: red;
   font-family: 'Barlow', sans-serif;
 }
-#letterDTwo{
+.letterDTwo{
   color: orange;
   font-family: 'Barlow', sans-serif;
 }
