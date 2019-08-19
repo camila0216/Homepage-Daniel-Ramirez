@@ -421,6 +421,9 @@ footer{
     background-color: rgb(165, 165, 0);
     font-size: 3.5vw;
   }
+  #titleMecato{
+    margin-left: 0vw;
+  }
   #three{
     margin-right: 5vw;
     margin-top: 5vh;

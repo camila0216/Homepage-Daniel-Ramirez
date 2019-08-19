@@ -1,3 +1,6 @@
+"use strict";
+/* Función con el fin de mover la imagen principal del index solo cuando es en computador
+   Cuando sea en un celular se pone la imagen sin movimiento  */
 function moveImage() {
   let element = document.getElementById("photo");
   let respPhone = window.matchMedia("(max-width: 575.98px)");
@@ -5,7 +8,8 @@ function moveImage() {
   let id = setInterval(frame, 10);
   function frame() {
     if (respPhone.matches) {
-
+      element.style.width = "inherit";
+      element.styke.height = "inherit";
     }
     else{
       if (pos == 24) {
@@ -18,6 +22,8 @@ function moveImage() {
   }
 }
 
+/* Función que pone la imagen de studies al pasar encima
+   del boton studies del menu lateral */
 function putImageStudies(){
   let element = document.getElementById("imagenDos");
   let respPhone = window.matchMedia("(max-width: 575.98px)");
@@ -33,6 +39,8 @@ function putImageStudies(){
   }
 }
 
+/* Función que pone la imagen de projects al pasar encima
+   del boton projects del menu lateral */
 function putImageProjects(){
   let element = document.getElementById("imagenDos");
   let respPhone = window.matchMedia("(max-width: 575.98px)");
@@ -49,6 +57,8 @@ function putImageProjects(){
   }
 }
 
+/* Función que pone la imagen de hobbies al pasar encima
+   del boton hobbies del menu lateral */
 function putImageHobbies(){
   let element = document.getElementById("imagenDos");
   let respPhone = window.matchMedia("(max-width: 575.98px)");
@@ -64,14 +74,3 @@ function putImageHobbies(){
     element.style.marginLeft = -3 + "vw";
   }
 }
-
-/* function backImageTwo(){
-  let element = document.getElementById("imagenDos");
-  element.src = undefined;
-  element.alt = "Welcome you all";
-  element.style.backgroundColor = "rgb(41, 41, 41);";
-} */
-
-/* function rotateContact(){
-
-} */
