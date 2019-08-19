@@ -12,7 +12,7 @@ body{
 .row{
   width: 21vw;
   height: 85vh;
-  margin-left: -9.5vw;
+  margin-left: 0vw;
 }
 #menu{
   background-color: black;
@@ -29,7 +29,6 @@ body{
 }
 #logoDos{
   margin-top: 8vh;
-/*   margin-left: 5vw; */
 }
 .nav-link{
   text-align: center;
@@ -81,25 +80,70 @@ body{
   width: 15vw;
   height: 15vh;
   margin-top: -5vh;
- /*  margin-left: 5vw; */
 }
-#photo{
-  width: 20vw;
-  height: 45vh;
+#top{
+  width: 70vw;
+  height: 20vh;
+  margin-left: 16vw;
+  margin-top: 10vh;
   float: left;
-  margin-left: 24vw;
-  margin-top: -66vh;
 }
-#info{
+#txtLeftCorner{
+  width: 17vw;
+  height: 20vh;
+  margin-top: 2vh;
   float: left;
-  width: 20vw;
-  height: 50vh;
-  margin-left: 55vw;
-  margin-top: -70vh;
 }
-#name{
-  margin-left: 1vw;
-  text-align: justify;
+#videogames{
+  float: left;
+  margin-left: 0vw;
+  margin-top: 3vh;
+}
+#txtRightCorner{
+  width: 15vw;
+  height: 20vh;
+  margin-top: 2vh;
+  margin-left: 15vw;
+  float: left;
+}
+#cinema{
+  float: left;
+  margin-top: -21.5vh;
+  margin-left: 6vw;
+}
+#bottom{
+  width: 70vw;
+  height: 40vh;
+  margin-left: 16vw;
+  margin-top: 15vh;
+  float: left;
+}
+#txtLeftCornerB{
+  width: 20vw;
+  height: 15vh;
+  margin-top: 2vh;
+}
+#pray{
+  margin-left: 6vw;
+  margin-top: 2vh;
+}
+#txtCenterCornerB{
+  width: 20vw;
+  height: 15vh;
+  margin-top: 2vh;
+}
+#food{
+  margin-left: 5.5vw;
+  margin-top: 2vh;
+}
+#txtRightCornerB{
+  width: 20vw;
+  height: 15vh;
+  margin-top: 2vh;
+}
+#soccer{
+  margin-left: 5.5vw;
+  margin-top: 2vh;
 }
 #letterD{
   color: blue;
@@ -121,7 +165,7 @@ footer{
   width: 100vw;
   height: 10vh;
   margin-top: 5vh;
-  margin-left: -9.5vw;
+  margin-left: 0vw;
   background-color:rgba(255, 255, 255, 0.2);
 }
 .contact{
@@ -184,16 +228,17 @@ footer{
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   body{
-    height: 100vw;
+    height: 235vh;
   }
   .row{
     width: 100vw;
     height: 50vh;
-    margin-left: -9.5vw;
+    margin-left: 0vw;
   }
   #menu{
     width: 33vw;
     height: 80vh;
+    margin-left: 0vw;
   }
   #logo{
     margin-left: -10vw;
@@ -220,24 +265,93 @@ footer{
     margin-top: 10vh;
     margin-left: -5vw;
   }
-  #photo{
-    width: 40vw;
-    height: 25vh;
-    margin-top: -70vh;
-    margin-left: 35vw;
+  #top{
+    width: 55vw;
+    margin-left: 27vw;
+    margin-top: 2vh;
   }
-  #name{
-    text-align: left;
+  #contLeftCorner{
+    margin-bottom: 1vh;
+    float: left;
   }
-  #info{
-    width: 52vw;
-    height: 35vh;
-    font-size: 2vh;
-    margin-left: 30vw;
-    margin-top: -40vh;
+  #txtLeftCorner{
+    width: 45vw;
+    margin-top: 22vh;
+  }
+  #videogames{
+    margin-top: -42vh;
+    margin-left: 7vw;
+    float: left;
+  }
+  #contRightCorner{
+    margin-bottom: 2vh;
+  }
+  #txtRightCorner{
+    width: 45vw;
+    margin-top: 22vh;
+    margin-left: 0vw;
+  }
+  #cinema{
+    margin-top: -42vh;
+    margin-left: 7vw;
+    float: left;
+  }
+  #bottom{
+    width: 55vw;
+    margin-left: 27vw;
+    margin-top: 72.5vh;
+  }
+  #txtLeftCornerB{
+    width: 45vw;
+    margin-top: 22vh;
+    margin-left: 0vw;
+  }
+  #pray{
+    margin-top: 2vh;
+    margin-left: 7vw;
+    float: left;
+  }
+  #contLeftCornerB{
+    height: 40vh;
+    float: left;
+    margin-top: 0vh;
+    margin-left: 0vw
+  }
+  #txtCenterCornerB{
+    width: 45vw;
+    margin-top: 22vh;
+    margin-left: 0vw;
+  }
+  #food{
+    margin-top: 2vh;
+    margin-left: 7vw;
+    float: left;
+  }
+  #contCenterCornerB{
+    height: 40vh;
+    float: left;
+    margin-top: 41vh;
+    margin-left: -55vw;
+  }
+  #txtRightCornerB{
+    width: 45vw;
+    margin-top: 22vh;
+    margin-left: 0vw;
+  }
+  #soccer{
+    margin-top: 2vh;
+    margin-left: 7vw;
+    float: left;
+  }
+  #contRightCornerB{
+    height: 40vh;
+    float: left;
+    margin-top: 82vh;
+    margin-left: -55vw;
   }
   footer{
     width: 99.5vw;
+    margin-left: 0vw;
     margin-top: 10vh;
   }
   .contact{
@@ -255,7 +369,6 @@ footer{
     margin-top: 0vh;
     margin-left: 10vw;
   }
-
   #instagram{
     width: 10.5vw;
     height: 5.5vh;

@@ -13,7 +13,7 @@ body{
   width: 21vw;
   height: 85vh;
   margin-top: 0vh;
-  margin-left: -9.5vw;
+  margin-left: 0vw;
 }
 #menu{
   background-color: black;
@@ -78,7 +78,6 @@ body{
   width: 15vw;
   height: 15vh;
   margin-top: -5vh;
- /*  margin-left: 5vw; */
 }
 #letterD{
   color: blue;
@@ -100,23 +99,14 @@ body{
   width: 70vw;
   height: 40vh;
   margin-left: 15vw;
-  margin-top: -82vh;
+  margin-top: 3vh;
   float: left;
 }
 #rowThree{
   width: 70vw;
   height: 40vh;
   margin-left: 15vw;
-  margin-top: -42.4vh;
   float: left;
-}
-#one{
-  border-left-style: solid;
-  border-left-color: orange;
-  border-top-style: solid;
-  border-top-color: orange;
-  margin-right: 5vw;
-  margin-bottom: 5vh;
 }
 .flip-card {
   background-color: transparent;
@@ -154,6 +144,14 @@ body{
 /*   background-color: orange; */
   color: white;
   transform: rotateY(180deg);
+}
+#one{
+  border-left-style: solid;
+  border-left-color: orange;
+  border-top-style: solid;
+  border-top-color: orange;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
 }
 #projectOne{
   width: 30vw;
@@ -213,7 +211,7 @@ footer{
   width: 100vw;
   height: 10vh;
   margin-top: 5vh;
-  margin-left: -9.5vw;
+  margin-left: 0vw;
   background-color:rgba(255, 255, 255, 0.2);
 }
 .contact{
@@ -276,16 +274,17 @@ footer{
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   body{
-    height: 100vw;
+    height: 165vh;
   }
   .row{
     width: 100vw;
     height: 50vh;
-    margin-left: -9.5vw;
+    margin-left: 0vw;
   }
   #menu{
     width: 33vw;
     height: 80vh;
+    margin-left: 0vw;
   }
   #logo{
     margin-left: -10vw;
@@ -312,21 +311,65 @@ footer{
     margin-top: 10vh;
     margin-left: -5vw;
   }
-  #photo{
+  .flip-card {
     width: 40vw;
-    height: 25vh;
-    margin-top: -70vh;
-    margin-left: 35vw;
   }
-  #name{
-    text-align: left;
-  }
-  #info{
-    width: 52vw;
-    height: 35vh;
-    font-size: 2vh;
+  #rowTwo{
+    width: 50vw;
+    margin-top: 2vh;
     margin-left: 30vw;
-    margin-top: -40vh;
+  }
+  #rowThree{
+    width: 50vw;
+    margin-top: 30vh;
+    margin-left: 30vw;
+  }
+  #projectOne{
+    width: 40vw;
+    margin-top: 10vh;
+    margin-left: 0vw;
+  }
+  #backOne{
+    background-color: orange;
+  }
+  #projectTwo{
+    width: 35vw;
+    margin-top: 5vh;
+    margin-left: 0vw;
+  }
+  #backTwo{
+    background-color: yellow;
+  }
+  #three{
+    margin-right: 5vw;
+    margin-top: 5vh;
+    border-left-style: solid;
+    border-left-color: yellow;
+    border-bottom-style: solid;
+    border-bottom-color: yellow;
+  }
+  #projectThree{
+    font-size: 4vw;
+    margin-left: 0vw;
+    margin-top: 11vh;
+  }
+  #backThree{
+    background-color: rgb(41, 41, 41);
+  }
+  #four{
+    margin-top: 5vh;
+    border-right-style: solid;
+    border-right-color: orange;
+    border-bottom-style: solid;
+    border-bottom-color: orange;
+  }
+  #projectFour{
+    font-size: 4vw;
+    margin-left: 0vw;
+    margin-top: 14vh;
+  }
+  #backFour{
+    background-color: rgb(41, 41, 41);
   }
   footer{
     width: 99.5vw;
