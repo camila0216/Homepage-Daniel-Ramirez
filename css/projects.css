@@ -189,8 +189,31 @@ body{
   margin-top: 7vh;
   color: yellow;
 }
+.progress{
+  width: 20vw;
+  margin-left: 7vw;
+  margin-top: 6vh;
+}
 #backThree{
   background-color: rgb(41, 41, 41);
+}
+#java{
+  float: left;
+  margin-top: 5.5vh;
+  margin-left: 2vw;
+  color: white;
+}
+#python{
+  float: left;
+  margin-top: 5.5vh;
+  margin-left: -3vw;
+  color: white;
+}
+#sql{
+  float: left;
+  margin-top: 5.5vh;
+  margin-left: -3vw;
+  color: white;
 }
 #four{
   margin-top: 5vh;
@@ -206,6 +229,35 @@ body{
 }
 #backFour{
   background-color: rgb(41, 41, 41);
+}
+.pTwo{
+  margin-top: 4vh;
+  margin-left: 10vw;
+  margin-bottom: 2vh;
+}
+#calm{
+  float: left;
+  margin-top: 3.5vh;
+  margin-left: 2vw;
+  color: white;
+}
+#responsable{
+  float: left;
+  margin-top: 1.5vh;
+  margin-left: -2.8vw;
+  color: white;
+}
+#concentration{
+  float: left;
+  margin-top: 1.5vh;
+  margin-left: -7vw;
+  color: white;
+}
+#innovation{
+  float: left;
+  margin-top: 1.5vh;
+  margin-left: -7vw;
+  color: white;
 }
 footer{
   width: 100vw;
@@ -381,6 +433,23 @@ footer{
   #backThree{
     background-color: rgb(41, 41, 41);
   }
+  .progress{
+    margin-top: 4vh;
+    margin-left: 5vh;
+    margin-bottom: 2vh;
+  }
+  #java{
+    margin-top: 0vh;
+    margin-left: 8vh;
+  }
+  #python{
+    margin-top: 0vh;
+    margin-left: 7vh;
+  }
+  #sql{
+    margin-top: 0vh;
+    margin-left: 8vh;
+  }
   #four{
     margin-top: 5vh;
     border-right-style: solid;
@@ -393,8 +462,45 @@ footer{
     margin-left: 0vw;
     margin-top: 14vh;
   }
+  .pTwo{
+    margin-top: 4vh;
+    margin-left: 5vh;
+    margin-bottom: 2vh;
+  }
   #backFour{
     background-color: rgb(41, 41, 41);
+  }
+  .progress{
+    margin-top: 4vh;
+    margin-left: 5vh;
+    margin-bottom: 2vh;
+  }
+  .pTwo{
+    font-size: 2vw;
+    height: 1vh;
+    margin-top: 4vh;
+    margin-left: 5vh;
+    margin-bottom: 2vh;
+  }
+  #calm{
+    font-size: 3vw;
+    margin-top: 0vh;
+    margin-left: 8.5vh;
+  }
+  #responsable{
+    font-size: 3vw;
+    margin-top: 0vh;
+    margin-left: 6vh;
+  }
+  #concentration{
+    font-size: 3vw;
+    margin-top: 0vh;
+    margin-left: 6vh;
+  }
+  #innovation{
+    font-size: 3vw;
+    margin-top: 0vh;
+    margin-left: 7vh;
   }
   footer{
     width: 99.5vw;

@@ -84,8 +84,8 @@ body{
  /*  margin-left: 5vw; */
 }
 #photo{
-  width: 20vw;
-  height: 45vh;
+  width: 19vw;
+  height: 39vh;
   float: left;
   margin-left: 24vw;
   margin-top: -66vh;
@@ -101,19 +101,19 @@ body{
   margin-left: 1vw;
   text-align: justify;
 }
-#letterD{
+.letterD{
   color: blue;
   font-family: 'Barlow', sans-serif;
 }
-#letterA{
+.letterA{
     color: green;
 font-family: 'Barlow', sans-serif;
 }
-#letterR{
+.letterR{
   color: red;
   font-family: 'Barlow', sans-serif;
 }
-#letterDTwo{
+.letterDTwo{
   color: orange;
   font-family: 'Barlow', sans-serif;
 }
