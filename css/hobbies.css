@@ -187,7 +187,7 @@ footer{
   margin-top: 0vh;
 }
 
-#instagram{
+#github{
   width: 3vw;
   height: 6vh;
   margin-top: 0vh;
@@ -216,10 +216,10 @@ footer{
   animation-timing-function: linear;
 }
 
-#instagram:hover{
+#github:hover{
   animation-name: rotate;
-  animation-duration: 0.5s;
-  animation-iteration-count: 0.5;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
   animation-timing-function: linear;
 }
 
@@ -369,7 +369,7 @@ footer{
     margin-top: 0vh;
     margin-left: 10vw;
   }
-  #instagram{
+  #github{
     width: 10.5vw;
     height: 5.5vh;
     margin-top: -0.5vh;
