@@ -36,7 +36,7 @@ function putImageStudies(){
 function putImageProjects(){
   let element = document.getElementById("imagenDos");
   let respPhone = window.matchMedia("(max-width: 575.98px)");
-  element.src = "images/NAMI.png";
+  element.src = "images/nami.png";
   element.style.backgroundColor = "rgb(41, 41, 41);";
   if (respPhone.matches) {
     element.style.width = 30 + "vw";
