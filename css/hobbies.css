@@ -12,7 +12,7 @@ body{
 .row{
   width: 21vw;
   height: 85vh;
-  margin-left: -9.5vw;
+  margin-left: 0vw;
 }
 #menu{
   background-color: black;
@@ -81,25 +81,54 @@ body{
   width: 15vw;
   height: 15vh;
   margin-top: -5vh;
- /*  margin-left: 5vw; */
 }
-#photo{
-  width: 20vw;
-  height: 45vh;
+#top{
+  width: 70vw;
+  height: 20vh;
+  margin-left: 16vw;
+  margin-top: 10vh;
   float: left;
-  margin-left: 24vw;
-  margin-top: -66vh;
 }
-#info{
-  float: left;
+#txtLeftCorner{
+  border-style: solid;
   width: 20vw;
-  height: 50vh;
-  margin-left: 55vw;
-  margin-top: -70vh;
+  height: 20vh;
+  margin-top: 2vh;
 }
-#name{
-  margin-left: 1vw;
-  text-align: justify;
+#txtRightCorner{
+  border-style: solid;
+  width: 20vw;
+  height: 20vh;
+  margin-top: 2vh;
+  margin-left: 13vw;
+}
+#bottom{
+  width: 70vw;
+  height: 40vh;
+  margin-left: 16vw;
+  margin-top: 15vh;
+  float: left;
+}
+#txtLeftCornerB{
+  border-style: solid;
+  width: 20vw;
+  height: 20vh;
+  margin-top: 17vh;
+}
+#txtCenterCornerB{
+  border-style: solid;
+  width: 20vw;
+  height: 20vh;
+  margin-top: 17vh;
+}
+#txtRightCornerB{
+  border-style: solid;
+  width: 20vw;
+  height: 20vh;
+  margin-top: 17vh;
+}
+.col{
+  border-style: solid;
 }
 #letterD{
   color: blue;
@@ -121,7 +150,7 @@ footer{
   width: 100vw;
   height: 10vh;
   margin-top: 5vh;
-  margin-left: -9.5vw;
+  margin-left: 0vw;
   background-color:rgba(255, 255, 255, 0.2);
 }
 .contact{
@@ -184,16 +213,17 @@ footer{
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   body{
-    height: 100vw;
+    height: 165vh;
   }
   .row{
     width: 100vw;
     height: 50vh;
-    margin-left: -9.5vw;
+    margin-left: 0vw;
   }
   #menu{
     width: 33vw;
     height: 80vh;
+    margin-left: 0vw;
   }
   #logo{
     margin-left: -10vw;
@@ -220,24 +250,58 @@ footer{
     margin-top: 10vh;
     margin-left: -5vw;
   }
-  #photo{
-    width: 40vw;
-    height: 25vh;
-    margin-top: -70vh;
-    margin-left: 35vw;
+  #top{
+    width: 55vw;
+    margin-left: 27vw;
+    margin-top: 2vh;
   }
-  #name{
-    text-align: left;
+  #contLeftCorner{
+    margin-bottom: 1vh;
   }
-  #info{
-    width: 52vw;
-    height: 35vh;
-    font-size: 2vh;
-    margin-left: 30vw;
-    margin-top: -40vh;
+  #contRightCorner{
+    margin-bottom: 2vh;
+  }
+  #txtRightCorner{
+    margin-left: 14vh;
+  }
+  #bottom{
+    width: 55vw;
+    height: 10vh;
+    margin-left: 27vw;
+    margin-top: 60vw;
+  }
+  #txtLeftCornerB{
+    margin-top: 5vh;
+
+  }
+  #contLeftCornerB{
+    height: 30vh;
+    float: left;
+    margin-top: 0vh;
+    margin-left: 0vw
+  }
+  #txtCenterCornerB{
+    margin-top: 5vh;
+    margin-left: 14vh;
+  }
+  #contCenterCornerB{
+    height: 30vh;
+    float: left;
+    margin-top: 31vh;
+    margin-left: -55vw;
+  }
+  #txtRightCornerB{
+    margin-top: 5vh;
+  }
+  #contRightCornerB{
+    height: 30vh;
+    float: left;
+    margin-top: 62vh;
+    margin-left: -55vw;
   }
   footer{
     width: 99.5vw;
+    margin-left: 0vw;
     margin-top: 10vh;
   }
   .contact{
@@ -255,7 +319,6 @@ footer{
     margin-top: 0vh;
     margin-left: 10vw;
   }
-
   #instagram{
     width: 10.5vw;
     height: 5.5vh;

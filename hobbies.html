@@ -12,7 +12,7 @@
 </head>
 <body onload="moveImage()">
   <div class="container">
-    <div id="menu" class="row">
+    <div id="menu" class="row fixed-top">
       <div class="col-4">
           <ul class="nav flex-column">
             <li id="logo" class="nav-item"><h1><a class="nav-link" href="index.html"><span id="letterD">D</span>.<span id="letterA">A</span>.<span id="letterR">R</span>.<span id="letterDTwo">D</span></a></h1></li>
@@ -24,14 +24,27 @@
           </ul>
       </div>
     </div>
-    <div id="myImage">
-      <img id="photo" class="img-fluid rounded-circle" src="images/photo.jpeg" alt="photo">
+    <div id="top" class="row">
+      <div id="contLeftCorner" class="col">
+        <p id="txtLeftCorner"></p>
+      </div>
+      <div id="contRightCorner" class="col">
+        <p id="txtRightCorner"></p>
+      </div>
     </div>
-    <div id="info">
-      <h1 id="name"><span id="letterD">D</span>aniel <span id="letterA">A</span>ugusto <spa id="letterR">R</spa>amírez <span id="letterDTwo">D</span>ueñas</h1>
-      <p id="text">Welcome to my home page. I am very glad to present you all about me, her you can find my studies, projects were I had worked on and also some of my hobbies. Let´s start!</p>
+    <div id="bottom" class="row">
+      <div id="contLeftCornerB" class="col">
+        <p id="txtLeftCornerB"></p>
+      </div>
+      <div id="contCenterCornerB" class="col">
+        <p id="txtCenterCornerB"></p>
+      </div>
+      <div id="contRightCornerB" class="col">
+        <p id="txtRightCornerB"></p>
+      </div>
     </div>
-    <footer>
+    </div>
+    <footer class="fixed-bottom">
       <div id="footer">
         <div id="contContact">
             <div class="contact">

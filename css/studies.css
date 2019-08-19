@@ -413,33 +413,33 @@ footer{
     margin-left: -3vw;
     margin-top: -2.5vh;
   }
-footer{
-  width: 99.5vw;
-  margin-left: 0vw;
-  margin-top: 10vh;
-}
-.contact{
-  margin-left: 5vw;
-  margin-top: 3vh;
-}
-#face{
-  width: 10vw;
-  height: 5vh;
-  margin-top: 0vh;
-}
-#twitter{
-  width: 10vw;
-  height: 5vh;
-  margin-top: 0vh;
-  margin-left: 10vw;
-}
+  footer{
+    width: 99.5vw;
+    margin-left: 0vw;
+    margin-top: 10vh;
+  }
+  .contact{
+    margin-left: 5vw;
+    margin-top: 3vh;
+  }
+  #face{
+    width: 10vw;
+    height: 5vh;
+    margin-top: 0vh;
+  }
+  #twitter{
+    width: 10vw;
+    height: 5vh;
+    margin-top: 0vh;
+    margin-left: 10vw;
+  }
 
-#instagram{
-  width: 10.5vw;
-  height: 5.5vh;
-  margin-top: -0.5vh;
-  margin-left: 10vw;
-}
+  #instagram{
+    width: 10.5vw;
+    height: 5.5vh;
+    margin-top: -0.5vh;
+    margin-left: 10vw;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px) */
