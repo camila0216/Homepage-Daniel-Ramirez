@@ -39,7 +39,14 @@ body{
 .nav-link:hover{
   color: white;
 }
+.btn{
+  color: white;
+}
+.btn:hover{
+  color: white;
+}
 #home{
+  border-style: solid;
   border-color: green;
   box-shadow: 0px 0px 40px green;
 }
@@ -48,6 +55,7 @@ body{
   box-shadow: 0px 0px 40px green;
 }
 #studies{
+  border-style: solid;
   border-color: blue;
   box-shadow: 0px 0px 40px blue;
 }
@@ -56,6 +64,7 @@ body{
   box-shadow: 0px 0px 40px blue;
 }
 #projects{
+  border-style: solid;
   border-color: orange;
   box-shadow: 0px 0px 40px orange;
 }
@@ -64,6 +73,7 @@ body{
   box-shadow: 0px 0px 40px orange;
 }
 #hobbies{
+  border-style: solid;
   border-color: red;
   box-shadow: 0px 0px 40px red;
 }
@@ -80,19 +90,19 @@ body{
   margin-top: -5vh;
  /*  margin-left: 5vw; */
 }
-#letterD{
+.letterD{
   color: blue;
   font-family: 'Barlow', sans-serif;
 }
-#letterA{
+.letterA{
   color: green;
   font-family: 'Barlow', sans-serif;
 }
-#letterR{
+.letterR{
   color: red;
   font-family: 'Barlow', sans-serif;
 }
-#letterDTwo{
+.letterDTwo{
   color: orange;
   font-family: 'Barlow', sans-serif;
 }
@@ -105,12 +115,6 @@ body{
 }
 .col{
   border-style: solid;
-}
-.btn{
-  color: white;
-}
-.btn:hover{
-  color: white;
 }
 a:hover{
   text-decoration: none;
@@ -161,12 +165,12 @@ a:hover{
   width: 13vw;
   height: 11vh;
   margin-top: 10vh;
-  margin-bottom: 12vh;
+  margin-bottom: 7vh;
   margin-left: 2vw;
 }
 #textoUniversidad{
   height: 29vh;
-  margin-bottom: 13vh;
+  margin-bottom: 18.5vh;
   font-size: 2vh;
 }
 #etiquetaUniversidad{
@@ -182,21 +186,26 @@ a:hover{
   box-shadow: 0px 0px 20px rgb(84, 86, 190);
   text-decoration: none;
 }
+#visitUniversidad{
+  margin-top: 19.5vh;
+  width: 8.5vw;
+  margin-left: 6vw;
+}
 /* Otros */
 #otros{
   border-color: rgb(134, 136, 187);
   box-shadow: 0px 0px 20px rgb(134, 136, 187);
 }
 #imagenOtros{
-  width: 12vw;
-  height: 10vh;
+  width: 13vw;
+  height: 11vh;
   margin-top: 10vh;
-  margin-bottom: 12vh;
-  margin-left: 4vw;
+  margin-bottom: 7vh;
+  margin-left: 2vw;
 }
 #textoOtros{
   height: 29vh;
-  margin-bottom: 14vh;
+  margin-bottom: 18.5vh;
   font-size: 2vh;
 }
 #etiquetaOtros{
@@ -212,6 +221,11 @@ a:hover{
   box-shadow: 0px 0px 20px rgb(134, 136, 187);
   text-decoration: none;
 }
+#visitOtros{
+  margin-top: 11vh;
+  width: 8.5vw;
+  margin-left: 6vw;
+}
 footer{
   width: 100vw;
   height: 10vh;
@@ -226,7 +240,7 @@ footer{
   margin-left: 10vw;
 }
 #contContact{
-  margin-left: 24vw;
+  margin-left: 20vw;
 }
 #face{
   width: 3vw;
@@ -238,13 +252,30 @@ footer{
   height: 6vh;
   margin-top: 0vh;
 }
-
 #github{
   width: 3vw;
   height: 6vh;
   margin-top: 0vh;
 }
-
+#mail{
+  width: 3vw;
+  height: 6vh;
+  margin-top: 0vh;
+  float: left;
+}
+#txtMail{
+  color: black;
+  margin-left: 1vw;
+  margin-top: -1vh;
+  float: left;
+}
+#dirMail{
+  color: black;
+  float: left;
+  margin-top: 1vw;
+  margin-left: -6.6vw;
+}
+/* Rotation */
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -253,22 +284,25 @@ footer{
     transform: rotate(360deg);
   }
 }
-
 #face:hover{
     animation-name: rotate;
     animation-duration: 0.3s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
 }
-
 #twitter:hover{
   animation-name: rotate;
   animation-duration: 0.3s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
 }
-
 #github:hover{
+  animation-name: rotate;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+#mail:hover{
   animation-name: rotate;
   animation-duration: 0.3s;
   animation-iteration-count: 1;
@@ -280,7 +314,7 @@ footer{
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   body{
-    height: 185vh;
+    height: 195vh;
   }
   .row{
     width: 100vw;
@@ -370,7 +404,7 @@ footer{
   #etiquetaUniversidad{
     width: 15vw;
     height: 5vh;
-    margin-top: -14vh;
+    margin-top: -17.5vh;
     margin-left: 13vw;
   }
   #visitUniversidad{
@@ -385,7 +419,7 @@ footer{
   }
   /* Otros */
   #otros{
-    height: 95vw;
+    height: 110vw;
     margin-left: 0vw;
     margin-bottom: 10vh;
   }
@@ -400,7 +434,7 @@ footer{
   #etiquetaOtros{
     width: 15vw;
     height: 5vh;
-    margin-top: -14vh;
+    margin-top: -9vh;
     margin-left: 13vw;
   }
   #visitOtros{
@@ -419,8 +453,11 @@ footer{
     margin-top: 10vh;
   }
   .contact{
-    margin-left: 5vw;
+    margin-left: 2vw;
     margin-top: 3vh;
+  }
+  #contContact{
+    margin-left: 20vw;
   }
   #face{
     width: 10vw;
@@ -433,12 +470,23 @@ footer{
     margin-top: 0vh;
     margin-left: 10vw;
   }
-
   #github{
     width: 10.5vw;
     height: 5.5vh;
     margin-top: -0.5vh;
     margin-left: 10vw;
+  }
+  #mail{
+    width: 10.5vw;
+    height: 5.5vh;
+    margin-top: -0.5vh;
+    margin-left: 5vw;
+  }
+  #txtMail{
+    display: none;
+  }
+  #dirMail{
+    display: none;
   }
 }
 

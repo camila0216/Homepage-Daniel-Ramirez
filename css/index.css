@@ -29,7 +29,6 @@ body{
 }
 #logoDos{
   margin-top: 8vh;
-/*   margin-left: 5vw; */
 }
 .nav-link{
   text-align: center;
@@ -84,8 +83,8 @@ body{
  /*  margin-left: 5vw; */
 }
 #photo{
-  width: 20vw;
-  height: 45vh;
+  width: 19vw;
+  height: 39vh;
   float: left;
   margin-left: 24vw;
   margin-top: -66vh;
@@ -101,19 +100,19 @@ body{
   margin-left: 1vw;
   text-align: justify;
 }
-#letterD{
+.letterD{
   color: blue;
   font-family: 'Barlow', sans-serif;
 }
-#letterA{
-    color: green;
-font-family: 'Barlow', sans-serif;
+.letterA{
+  color: green;
+  font-family: 'Barlow', sans-serif;
 }
-#letterR{
+.letterR{
   color: red;
   font-family: 'Barlow', sans-serif;
 }
-#letterDTwo{
+.letterDTwo{
   color: orange;
   font-family: 'Barlow', sans-serif;
 }
@@ -130,7 +129,7 @@ footer{
   margin-left: 10vw;
 }
 #contContact{
-  margin-left: 24vw;
+  margin-left: 20vw;
 }
 #face{
   width: 3vw;
@@ -142,13 +141,31 @@ footer{
   height: 6vh;
   margin-top: 0vh;
 }
-
 #github{
   width: 3vw;
   height: 6vh;
   margin-top: 0vh;
 }
-
+#mail{
+  width: 3vw;
+  height: 6vh;
+  margin-top: 0vh;
+  margin-left: 0vw;
+  float: left;
+}
+#txtMail{
+  color: black;
+  margin-left: 1vw;
+  margin-top: -1vh;
+  float: left;
+}
+#dirMail{
+  color: black;
+  float: left;
+  margin-top: 1vw;
+  margin-left: -6.6vw;
+}
+/* Rotation */
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -157,26 +174,32 @@ footer{
     transform: rotate(360deg);
   }
 }
-
 #face:hover{
     animation-name: rotate;
     animation-duration: 0.3s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
 }
-
 #twitter:hover{
   animation-name: rotate;
   animation-duration: 0.3s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
 }
-
 #github:hover{
   animation-name: rotate;
   animation-duration: 0.3s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
+}
+#mail:hover{
+  animation-name: rotate;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+a:hover{
+  text-decoration: none;
 }
 
 /* Responsive */
@@ -241,7 +264,7 @@ footer{
     margin-top: 10vh;
   }
   .contact{
-    margin-left: 5vw;
+    margin-left: 2vw;
     margin-top: 3vh;
   }
   #face{
@@ -255,12 +278,23 @@ footer{
     margin-top: 0vh;
     margin-left: 10vw;
   }
-
   #github{
     width: 10.5vw;
     height: 5.5vh;
     margin-top: -0.5vh;
     margin-left: 10vw;
+  }
+  #mail{
+    width: 10.5vw;
+    height: 5.5vh;
+    margin-top: -0.5vh;
+    margin-left: 5vw;
+  }
+  #txtMail{
+    display: none;
+  }
+  #dirMail{
+    display: none;
   }
 }
 

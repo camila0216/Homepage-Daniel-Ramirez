@@ -40,6 +40,7 @@ body{
   color: white;
 }
 #home{
+  border-style: solid;
   border-color: green;
   box-shadow: 0px 0px 40px green;
 }
@@ -48,6 +49,7 @@ body{
   box-shadow: 0px 0px 40px green;
 }
 #studies{
+  border-style: solid;
   border-color: blue;
   box-shadow: 0px 0px 40px blue;
 }
@@ -56,6 +58,7 @@ body{
   box-shadow: 0px 0px 40px blue;
 }
 #projects{
+  border-style: solid;
   border-color: orange;
   box-shadow: 0px 0px 40px orange;
 }
@@ -64,6 +67,7 @@ body{
   box-shadow: 0px 0px 40px orange;
 }
 #hobbies{
+  border-style: solid;
   border-color: red;
   box-shadow: 0px 0px 40px red;
 }
@@ -79,19 +83,19 @@ body{
   height: 15vh;
   margin-top: -5vh;
 }
-#letterD{
+.letterD{
   color: blue;
   font-family: 'Barlow', sans-serif;
 }
-#letterA{
+.letterA{
   color: green;
   font-family: 'Barlow', sans-serif;
 }
-#letterR{
+.letterR{
   color: red;
   font-family: 'Barlow', sans-serif;
 }
-#letterDTwo{
+.letterDTwo{
   color: orange;
   font-family: 'Barlow', sans-serif;
 }
@@ -174,7 +178,7 @@ body{
   margin-left: 2vw;
 }
 #backTwo{
-  background-color: yellow;
+  background-color: rgb(165, 165, 0);
 }
 #three{
   margin-right: 5vw;
@@ -189,8 +193,31 @@ body{
   margin-top: 7vh;
   color: yellow;
 }
+.progress{
+  width: 20vw;
+  margin-left: 7vw;
+  margin-top: 6vh;
+}
 #backThree{
   background-color: rgb(41, 41, 41);
+}
+#java{
+  float: left;
+  margin-top: 5.5vh;
+  margin-left: 2vw;
+  color: white;
+}
+#python{
+  float: left;
+  margin-top: 5.5vh;
+  margin-left: -3vw;
+  color: white;
+}
+#sql{
+  float: left;
+  margin-top: 5.5vh;
+  margin-left: -3vw;
+  color: white;
 }
 #four{
   margin-top: 5vh;
@@ -207,6 +234,35 @@ body{
 #backFour{
   background-color: rgb(41, 41, 41);
 }
+.pTwo{
+  margin-top: 4vh;
+  margin-left: 10vw;
+  margin-bottom: 2vh;
+}
+#calm{
+  float: left;
+  margin-top: 3.5vh;
+  margin-left: 2vw;
+  color: white;
+}
+#responsable{
+  float: left;
+  margin-top: 1.5vh;
+  margin-left: -2.8vw;
+  color: white;
+}
+#concentration{
+  float: left;
+  margin-top: 1.5vh;
+  margin-left: -7vw;
+  color: white;
+}
+#innovation{
+  float: left;
+  margin-top: 1.5vh;
+  margin-left: -7vw;
+  color: white;
+}
 footer{
   width: 100vw;
   height: 10vh;
@@ -220,7 +276,7 @@ footer{
   margin-left: 10vw;
 }
 #contContact{
-  margin-left: 24vw;
+  margin-left: 20vw;
 }
 #face{
   width: 3vw;
@@ -232,13 +288,30 @@ footer{
   height: 6vh;
   margin-top: 0vh;
 }
-
 #github{
   width: 3vw;
   height: 6vh;
   margin-top: 0vh;
 }
-
+#mail{
+  width: 3vw;
+  height: 6vh;
+  margin-top: 0vh;
+  float: left;
+}
+#txtMail{
+  color: black;
+  margin-left: 1vw;
+  margin-top: -1vh;
+  float: left;
+}
+#dirMail{
+  color: black;
+  float: left;
+  margin-top: 1vw;
+  margin-left: -6.6vw;
+}
+/* Rotation */
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -247,22 +320,25 @@ footer{
     transform: rotate(360deg);
   }
 }
-
 #face:hover{
     animation-name: rotate;
     animation-duration: 0.3s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
 }
-
 #twitter:hover{
   animation-name: rotate;
   animation-duration: 0.3s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
 }
-
 #github:hover{
+  animation-name: rotate;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+#mail:hover{
   animation-name: rotate;
   animation-duration: 0.3s;
   animation-iteration-count: 1;
@@ -331,6 +407,10 @@ footer{
   }
   #backOne{
     background-color: orange;
+    font-size: 3.5vw;
+  }
+  #titleNami{
+    margin-left: 0vw;
   }
   #projectTwo{
     width: 35vw;
@@ -338,7 +418,8 @@ footer{
     margin-left: 0vw;
   }
   #backTwo{
-    background-color: yellow;
+    background-color: rgb(165, 165, 0);
+    font-size: 3.5vw;
   }
   #three{
     margin-right: 5vw;
@@ -356,6 +437,23 @@ footer{
   #backThree{
     background-color: rgb(41, 41, 41);
   }
+  .progress{
+    margin-top: 4vh;
+    margin-left: 5vh;
+    margin-bottom: 2vh;
+  }
+  #java{
+    margin-top: 0vh;
+    margin-left: 8vh;
+  }
+  #python{
+    margin-top: 0vh;
+    margin-left: 7vh;
+  }
+  #sql{
+    margin-top: 0vh;
+    margin-left: 8vh;
+  }
   #four{
     margin-top: 5vh;
     border-right-style: solid;
@@ -368,16 +466,56 @@ footer{
     margin-left: 0vw;
     margin-top: 14vh;
   }
+  .pTwo{
+    margin-top: 4vh;
+    margin-left: 5vh;
+    margin-bottom: 2vh;
+  }
   #backFour{
     background-color: rgb(41, 41, 41);
+  }
+  .progress{
+    margin-top: 4vh;
+    margin-left: 5vh;
+    margin-bottom: 2vh;
+  }
+  .pTwo{
+    font-size: 2vw;
+    height: 1vh;
+    margin-top: 4vh;
+    margin-left: 5vh;
+    margin-bottom: 2vh;
+  }
+  #calm{
+    font-size: 3vw;
+    margin-top: 0vh;
+    margin-left: 8.5vh;
+  }
+  #responsable{
+    font-size: 3vw;
+    margin-top: 0vh;
+    margin-left: 6vh;
+  }
+  #concentration{
+    font-size: 3vw;
+    margin-top: 0vh;
+    margin-left: 6vh;
+  }
+  #innovation{
+    font-size: 3vw;
+    margin-top: 0vh;
+    margin-left: 7vh;
   }
   footer{
     width: 99.5vw;
     margin-top: 10vh;
   }
   .contact{
-    margin-left: 5vw;
+    margin-left: 2vw;
     margin-top: 3vh;
+  }
+  #contContact{
+    margin-left: 20vw;
   }
   #face{
     width: 10vw;
@@ -390,12 +528,23 @@ footer{
     margin-top: 0vh;
     margin-left: 10vw;
   }
-
   #github{
     width: 10.5vw;
     height: 5.5vh;
     margin-top: -0.5vh;
     margin-left: 10vw;
+  }
+  #mail{
+    width: 10.5vw;
+    height: 5.5vh;
+    margin-top: -0.5vh;
+    margin-left: 5vw;
+  }
+  #txtMail{
+    display: none;
+  }
+  #dirMail{
+    display: none;
   }
 }
 
