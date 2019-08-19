@@ -29,7 +29,6 @@ body{
 }
 #logoDos{
   margin-top: 8vh;
-/*   margin-left: 5vw; */
 }
 .nav-link{
   text-align: center;
@@ -90,17 +89,27 @@ body{
   float: left;
 }
 #txtLeftCorner{
-  border-style: solid;
-  width: 20vw;
+  width: 17vw;
   height: 20vh;
   margin-top: 2vh;
+  float: left;
+}
+#videogames{
+  float: left;
+  margin-left: 0vw;
+  margin-top: 3vh;
 }
 #txtRightCorner{
-  border-style: solid;
-  width: 20vw;
+  width: 15vw;
   height: 20vh;
   margin-top: 2vh;
-  margin-left: 13vw;
+  margin-left: 15vw;
+  float: left;
+}
+#cinema{
+  float: left;
+  margin-top: -21.5vh;
+  margin-left: 6vw;
 }
 #bottom{
   width: 70vw;
@@ -110,25 +119,31 @@ body{
   float: left;
 }
 #txtLeftCornerB{
-  border-style: solid;
   width: 20vw;
-  height: 20vh;
-  margin-top: 17vh;
+  height: 15vh;
+  margin-top: 2vh;
+}
+#pray{
+  margin-left: 6vw;
+  margin-top: 2vh;
 }
 #txtCenterCornerB{
-  border-style: solid;
   width: 20vw;
-  height: 20vh;
-  margin-top: 17vh;
+  height: 15vh;
+  margin-top: 2vh;
+}
+#food{
+  margin-left: 5.5vw;
+  margin-top: 2vh;
 }
 #txtRightCornerB{
-  border-style: solid;
   width: 20vw;
-  height: 20vh;
-  margin-top: 17vh;
+  height: 15vh;
+  margin-top: 2vh;
 }
-.col{
-  border-style: solid;
+#soccer{
+  margin-left: 5.5vw;
+  margin-top: 2vh;
 }
 #letterD{
   color: blue;
@@ -213,7 +228,7 @@ footer{
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   body{
-    height: 165vh;
+    height: 235vh;
   }
   .row{
     width: 100vw;
@@ -257,46 +272,81 @@ footer{
   }
   #contLeftCorner{
     margin-bottom: 1vh;
+    float: left;
+  }
+  #txtLeftCorner{
+    width: 45vw;
+    margin-top: 22vh;
+  }
+  #videogames{
+    margin-top: -42vh;
+    margin-left: 7vw;
+    float: left;
   }
   #contRightCorner{
     margin-bottom: 2vh;
   }
   #txtRightCorner{
-    margin-left: 14vh;
+    width: 45vw;
+    margin-top: 22vh;
+    margin-left: 0vw;
+  }
+  #cinema{
+    margin-top: -42vh;
+    margin-left: 7vw;
+    float: left;
   }
   #bottom{
     width: 55vw;
-    height: 10vh;
     margin-left: 27vw;
-    margin-top: 60vw;
+    margin-top: 72.5vh;
   }
   #txtLeftCornerB{
-    margin-top: 5vh;
-
+    width: 45vw;
+    margin-top: 22vh;
+    margin-left: 0vw;
+  }
+  #pray{
+    margin-top: 2vh;
+    margin-left: 7vw;
+    float: left;
   }
   #contLeftCornerB{
-    height: 30vh;
+    height: 40vh;
     float: left;
     margin-top: 0vh;
     margin-left: 0vw
   }
   #txtCenterCornerB{
-    margin-top: 5vh;
-    margin-left: 14vh;
+    width: 45vw;
+    margin-top: 22vh;
+    margin-left: 0vw;
+  }
+  #food{
+    margin-top: 2vh;
+    margin-left: 7vw;
+    float: left;
   }
   #contCenterCornerB{
-    height: 30vh;
+    height: 40vh;
     float: left;
-    margin-top: 31vh;
+    margin-top: 41vh;
     margin-left: -55vw;
   }
   #txtRightCornerB{
-    margin-top: 5vh;
+    width: 45vw;
+    margin-top: 22vh;
+    margin-left: 0vw;
+  }
+  #soccer{
+    margin-top: 2vh;
+    margin-left: 7vw;
+    float: left;
   }
   #contRightCornerB{
-    height: 30vh;
+    height: 40vh;
     float: left;
-    margin-top: 62vh;
+    margin-top: 82vh;
     margin-left: -55vw;
   }
   footer{
