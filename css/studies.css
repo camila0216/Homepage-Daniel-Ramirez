@@ -248,13 +248,30 @@ footer{
   height: 6vh;
   margin-top: 0vh;
 }
-
 #github{
   width: 3vw;
   height: 6vh;
   margin-top: 0vh;
 }
-
+#mail{
+  width: 3vw;
+  height: 6vh;
+  margin-top: 0vh;
+  float: left;
+}
+#txtMail{
+  color: black;
+  margin-left: 1vw;
+  margin-top: -1vh;
+  float: left;
+}
+#dirMail{
+  color: black;
+  float: left;
+  margin-top: 1vw;
+  margin-left: -6.6vw;
+}
+/* Rotation */
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -263,22 +280,25 @@ footer{
     transform: rotate(360deg);
   }
 }
-
 #face:hover{
     animation-name: rotate;
     animation-duration: 0.3s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
 }
-
 #twitter:hover{
   animation-name: rotate;
   animation-duration: 0.3s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
 }
-
 #github:hover{
+  animation-name: rotate;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+#mail:hover{
   animation-name: rotate;
   animation-duration: 0.3s;
   animation-iteration-count: 1;
@@ -429,8 +449,11 @@ footer{
     margin-top: 10vh;
   }
   .contact{
-    margin-left: 5vw;
+    margin-left: 2vw;
     margin-top: 3vh;
+  }
+  #contContact{
+    margin-left: 20vw;
   }
   #face{
     width: 10vw;
@@ -443,12 +466,23 @@ footer{
     margin-top: 0vh;
     margin-left: 10vw;
   }
-
   #github{
     width: 10.5vw;
     height: 5.5vh;
     margin-top: -0.5vh;
     margin-left: 10vw;
+  }
+  #mail{
+    width: 10.5vw;
+    height: 5.5vh;
+    margin-top: -0.5vh;
+    margin-left: 5vw;
+  }
+  #txtMail{
+    display: none;
+  }
+  #dirMail{
+    display: none;
   }
 }
 

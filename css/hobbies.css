@@ -190,13 +190,30 @@ footer{
   height: 6vh;
   margin-top: 0vh;
 }
-
 #github{
   width: 3vw;
   height: 6vh;
   margin-top: 0vh;
 }
-
+#mail{
+  width: 3vw;
+  height: 6vh;
+  margin-top: 0vh;
+  float: left;
+}
+#txtMail{
+  color: black;
+  margin-left: 1vw;
+  margin-top: -1vh;
+  float: left;
+}
+#dirMail{
+  color: black;
+  float: left;
+  margin-top: 1vw;
+  margin-left: -6.6vw;
+}
+/* Rotation */
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -205,22 +222,25 @@ footer{
     transform: rotate(360deg);
   }
 }
-
 #face:hover{
     animation-name: rotate;
     animation-duration: 0.3s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
 }
-
 #twitter:hover{
   animation-name: rotate;
   animation-duration: 0.3s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
 }
-
 #github:hover{
+  animation-name: rotate;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+#mail:hover{
   animation-name: rotate;
   animation-duration: 0.3s;
   animation-iteration-count: 1;
@@ -232,7 +252,7 @@ footer{
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   body{
-    height: 235vh;
+    height: 250vh;
   }
   .row{
     width: 100vw;
@@ -275,7 +295,7 @@ footer{
     margin-top: 2vh;
   }
   #contLeftCorner{
-    margin-bottom: 1vh;
+    margin-bottom: 4vh;
     float: left;
   }
   #txtLeftCorner{
@@ -288,7 +308,7 @@ footer{
     float: left;
   }
   #contRightCorner{
-    margin-bottom: 2vh;
+    margin-bottom: 4vh;
   }
   #txtRightCorner{
     width: 45vw;
@@ -303,7 +323,7 @@ footer{
   #bottom{
     width: 55vw;
     margin-left: 27vw;
-    margin-top: 72.5vh;
+    margin-top: 76vh;
   }
   #txtLeftCornerB{
     width: 45vw;
@@ -359,8 +379,11 @@ footer{
     margin-top: 10vh;
   }
   .contact{
-    margin-left: 5vw;
+    margin-left: 2vw;
     margin-top: 3vh;
+  }
+  #contContact{
+    margin-left: 20vw;
   }
   #face{
     width: 10vw;
@@ -378,6 +401,18 @@ footer{
     height: 5.5vh;
     margin-top: -0.5vh;
     margin-left: 10vw;
+  }
+  #mail{
+    width: 10.5vw;
+    height: 5.5vh;
+    margin-top: -0.5vh;
+    margin-left: 5vw;
+  }
+  #txtMail{
+    display: none;
+  }
+  #dirMail{
+    display: none;
   }
 }
 
