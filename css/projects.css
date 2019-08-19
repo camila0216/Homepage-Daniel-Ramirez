@@ -39,12 +39,6 @@ body{
 .nav-link:hover{
   color: white;
 }
-.btn{
-  color: white;
-}
-.btn:hover{
-  color: white;
-}
 #home{
   border-style: solid;
   border-color: green;
@@ -89,19 +83,19 @@ body{
   height: 15vh;
   margin-top: -5vh;
 }
-#letterD{
+.letterD{
   color: blue;
   font-family: 'Barlow', sans-serif;
 }
-#letterA{
+.letterA{
   color: green;
   font-family: 'Barlow', sans-serif;
 }
-#letterR{
+.letterR{
   color: red;
   font-family: 'Barlow', sans-serif;
 }
-#letterDTwo{
+.letterDTwo{
   color: orange;
   font-family: 'Barlow', sans-serif;
 }
@@ -375,10 +369,10 @@ footer{
     font-size: 3.5vh;
     margin-left: 12vw;
   }
-/*   .btn{
+  .btn{
     width: 20vw;
     margin-left: 2vw;
-  } */
+  }
   a{
     margin-left: -4.5vw;
   }
