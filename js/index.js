@@ -9,7 +9,8 @@ function moveImage() {
   function frame() {
     if (respPhone.matches) {
       element.style.width = "inherit";
-      element.styke.height = "inherit";
+      //Error gramatical 
+      element.style.height = "inherit";
     }
     else{
       if (pos == 24) {
@@ -73,4 +74,6 @@ function putImageHobbies(){
   {
     element.style.marginLeft = -3 + "vw";
   }
+   
+   //Muy chevere el efecto para cambiar la imagen al pasar el mouse por el botón, sin embargo, se podría unificar todas las funciones en una sola y hacer uso de parámetros. Esto con el fin de quitarle peso a la página.
 }
