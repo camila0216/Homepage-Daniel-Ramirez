@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--Documentar facilita la comprensión del código.-->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -15,6 +16,7 @@
 <body onload="moveImage()">
   <div class="container">
     <div id="menu" class="row fixed-top">
+      <!-- Mejorar el uso de grillas de bootstrap entre el menu y el resto del contenido para que asi la página sea responsive al cambiar el tamaño de la ventana.
       <div class="col-4">
         <ul class="nav flex-column">
           <li id="logo" class="nav-item"><h1><a class="nav-link" href="index.html"><span class="letterD">D</span>.<span class="letterA">A</span>.<span class="letterR">R</span>.<span class="letterDTwo">D</span></a></h1></li>
@@ -35,6 +37,7 @@
             <p>This is my life-time school, I study all my elementary and high school in this school. Is a small school located in Chia, Cundinamarca. I said it was small because I graduated with just 11 more persons and it was a very good and personalized school. There I was a destacated student with an average degree of 4.3</p>
             <p id="visitColegio">Know them more</p>
           </div>
+          <!--Al revisar el CSS de está página es posible ver que asignarle un margen inferior asociado al vh afecta la responsividad y la posición del botón haciendo que se sobreponga con los otros contenidaos al modificar la pantalla. Se podría intentar utilizar dos rows en cada cajita.-->
           <div id="etiquetaColegio">
             <a class="bColegio" href="https://gimnasiooxfordschool.edu.co"><button id="txtSchool" class="btn btn-block">School</button></a>
           </div>
