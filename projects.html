@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--Recuerda documentar el código, puede facicilitar su comprensión.-->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -15,6 +16,7 @@
 <body onload="moveImage()">
   <div class="container">
     <div id="menu" class="row fixed-top">
+      <!-- Fijar que el menu sea siempre 4 columnas afecta fuertemente la responsividad-->
       <div class="col-4">
         <ul class="nav flex-column">
           <li id="logo" class="nav-item"><h1><a class="nav-link" href="index.html"><span class="letterD">D</span>.<span class="letterA">A</span>.<span class="letterR">R</span>.<span class="letterDTwo">D</span></a></h1></li>
@@ -26,6 +28,7 @@
         </ul>
       </div>
     </div>
+    <!--Está muy chevere el efecto de voltear las imágenes, sin embargo, la responsividad no está también implementada y se podría mejorar con las grillas de bootstrap y las configuraciones de lg, sm y md-->
     <div  id="rowTwo" class="row">
       <div id="one" class="col">
         <div class="flip-card">
@@ -107,6 +110,7 @@
         </div>
     </div>
     <footer class="fixed-bottom">
+      <!-- Muy chevere el efecto que utilizaste para que giren los logos-->
       <div id="footer">
           <div id="contContact">
               <div class="contact">
